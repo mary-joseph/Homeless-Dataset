@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script src="lib/d3.js"></script>
+</head>
+
+<body>
+    <h1>Homeless Shelter</h1>
+   <h4><i>- Mary A Joseph</i></h4>
+    
+    <div class="h2">
+        <h2>This dataset consists of data from a local homeless shelter provided in <a href="https://www.kaggle.com/rezag7/homeless-dataset">Kaggle</a> on their homeless
+            population seeking shelter with 121 people.
+            <br>The visualization represents data of each client seeking shelter based on gender to understand the
+            Female to Male ratio in order to analyse gender influences based on age, income and veteran status.
+            <br>The two colours shown indicate veteran status of each client, with blue as No and Green as Yes.
+        <br> The size of the circles indicate the number of nights spent at the shelter. </h2>
+    </div>
+    <div id="chart2"></div>
+   <h3>Age range with percentage</h3>
+
+    <div class="content">
+        <p>
+            <br> <b>Age:</b> This is the age of the client seeking shelter
+            <br> <b>Gender:</b> This is the gender of the client seeking shelter
+            <br> <b>Veteran:</b> This is an indicator to indicate if the client is a veteran or not 
+            <br> <b>Income:</b> This is the yearly income of the client seeking shelter
+            <br> <b>Nights:</b> This is the number of nights the client seeking shelter has stayed at the shelter
+            <br> <b>Substance Abuse:</b> This is an indicator to indicate if the client has substance abuse or not
+            <br> <b>Completed:</b> This is an indicator to indicate if the client has completed shelters program
+            <br> <b>On Probation:</b> This is an indicator to indicate if the client is on probation or not
+            </p>
+    </div>
+    <br>
+    <div>
+        <button id="All">All</button> 
+    <button id="Female">Female</button>
+    <button id="Male">Male</button> 
+
+</div>
+    <div id="chart"></div>
+  
+    <br>
+    <br>
+<!-- <div id="chart3"><P>Income</P></div>-->
+    <script src="./SGB-script.js"></script>
+</body>
+
+</html>

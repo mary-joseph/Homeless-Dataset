@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18pt;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  font-weight:regular;
+  text-align: center;
+}
+
+
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: regular;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height:1.5;
+}
+
+.content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: regular;
+  font-size:10pt;
+  text-align: left;
+  padding-left: 10%;
+  line-height: 2;
+  
+}
+
+a {
+  color:navy;
+  transition: 0.5s;
+  
+}
+
+a:hover,
+a:active,
+a:focus {
+  color:  orangered;
+  outline: orangered;
+  text-decoration: none;
+}
+
+
+body {
+  text-align: center;
+  background-color:lightyellow;
+}
+
+
+#chart {
+  width: 100%;
+  height: 100vh;
+  float: left;
+}
+
+h3{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: right;
+  padding-right: 22.5%;
+  padding-left: 77.5%;
+font-size: small;
+}
+
+#chart2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 20%;
+  height: 30vh;
+ float: right;
+ text-align: justify;
+ line-height: 0;
+ padding-right: 50%;
+
+}
+
+
+button {
+  color: white;
+  font-size: 8pt;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: darkslategrey;
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  margin-top: 8px;
+}
+
+
+.axisLabel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  fill: black;
+}
+
+.axis {
+  font-size: 10pt;
+}
+
+.tooltip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: left;
+  visibility: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: regular;
+  font-size: 10pt;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: darkslategrey;
+  padding: 6px;
+  white-space: pre-wrap;
+  pointer-events: none;
+}
